@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+</head>
+<body>
+
+  <h1>Contact Us</h1>
+
+  <form action="#" method="post">
+    
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <!-- Email Input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <!-- Telephone Input -->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <!-- City Input with Datalist -->
+      <label for="city">City:</label>
+      <input list="cities" id="city" name="city">
+      <datalist id="cities">
+        <option value="Faislabad">
+        <option value="Lahore">
+        <option value="Karachi">
+        <option value="Islambad">
+        <option value="Multan">
+      </datalist><br><br>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Message Details</legend>
+
+      <!-- Subject Dropdown -->
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject" required>
+        <option value="">--Select a Subject--</option>
+        <option value="general">General Inquiry</option>
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+      </select><br><br>
+
+      <!-- Message Textarea -->
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+    </fieldset>
+
+    <!-- Submit Button -->
+    <button type="submit">Send Message</button>
+
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+• Build 'survey.html' using at least five different <input> types. 
+• Show a <meter> for satisfaction and a <progress> bar to indicate completion.
+• Use <output> to display a calculated score on input.
