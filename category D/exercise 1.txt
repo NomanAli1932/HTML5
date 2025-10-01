@@ -1,0 +1,3 @@
+Create 'glossary.html' using <dl>/<dt>/<dd> with at least 8 terms.
+• Add an unordered and an ordered list showing resources and steps. 
+• Ensure list nesting demonstrates hierarchy

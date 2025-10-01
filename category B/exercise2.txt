@@ -1,0 +1,3 @@
+• Create 'blog.html' that lists three <article> posts in a <section>.
+• Each article must contain a heading and a summary paragraph.
+• Add a site-wide <header>, <nav>, and <footer>.
