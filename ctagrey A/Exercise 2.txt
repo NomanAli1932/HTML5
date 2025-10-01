@@ -1,0 +1,8 @@
+Exercise 2 — resources.html
+• Use <!DOCTYPE html> and set <html lang>.
+• Include <head> with the same document/metadata tags as Exercise 1.
+• Choose a different <title> and <meta name="description">.
+• Reuse the same <base> as Exercise 1.
+• In <body>: list three relative resource links ('slides.html', 'lab1.html', 'reference.html') so they resolve via 
+<base>.
+• Add a line with UTF-8 characters or emojis to verify encoding.
