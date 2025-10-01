@@ -3,28 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Survey Form</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 2rem auto;
-    }
-    label {
-      display: block;
-      margin-top: 1rem;
-    }
-    progress {
-      width: 100%;
-      height: 20px;
-    }
-    meter {
-      width: 100%;
-      height: 20px;
-    }
-    output {
-      font-weight: bold;
-    }
-  </style>
 </head>
 <body>
 
@@ -35,47 +13,47 @@
     <!-- Input type: text -->
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
-
+    <br>
     <!-- Input type: email -->
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
-
+    <br>
     <!-- Input type: range (used for score calculation) -->
     <label for="q1">How satisfied are you with our service (1-10)?</label>
     <input type="range" id="q1" name="q1" min="0" max="10" value="5">
-
+    <br>
     <!-- Input type: number -->
     <label for="q2">Rate our website usability (0-10):</label>
     <input type="number" id="q2" name="q2" min="0" max="10" value="5">
-
+    <br>
     <!-- Input type: radio -->
     <label>Would you recommend us to others?</label>
     <input type="radio" id="yes" name="recommend" value="yes" checked>
     <label for="yes">Yes</label>
     <input type="radio" id="no" name="recommend" value="no">
     <label for="no">No</label>
-
+    <br>
     <!-- Input type: checkbox -->
     <label>
       <input type="checkbox" id="subscribe" name="subscribe">
       Subscribe to our newsletter
     </label>
-
+    <br>
     <!-- Input type: date -->
     <label for="visit-date">Date of your visit:</label>
     <input type="date" id="visit-date" name="visit-date">
-
+    <br>
     <!-- Another input used for score -->
     <label for="q3">Rate our staff friendliness (0-10):</label>
     <input type="range" id="q3" name="q3" min="0" max="10" value="5">
-
+    <br>
     <!-- Output element to display calculated score -->
     <p>Your total score: <output name="score" for="q1 q2 q3">15</output> / 30</p>
-
+    <br>
     <!-- Meter to show satisfaction visually -->
     <label for="satisfaction">Overall Satisfaction:</label>
     <meter id="satisfaction" min="0" max="10" value="7">7 out of 10</meter>
-
+    <br>
     <!-- Progress bar to show survey completion -->
     <label for="completion">Survey Completion:</label>
     <progress id="completion" value="80" max="100">80%</progress>
